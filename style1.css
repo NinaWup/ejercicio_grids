@@ -1,0 +1,47 @@
+/*Grid 1*/
+
+.container {
+
+    display: grid;
+    grid-template-columns: 80px 80 px;
+    grid-template-rows: 10em 10em 10em;
+    grid-auto-flow: column;
+    gap: 20px;
+  
+  }
+  
+  
+  
+  .item_greenlight {
+  
+    font-size: 2em;
+    background-color: rgb(87, 154, 87);
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    color: white;
+  }
+  
+  
+  .item_green {
+  
+    font-size: 2em;
+    background-color: rgb(43, 151, 43);
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    color: white;
+  }
+  
+  
+  
+  
+  .item_greendark {
+  
+    font-size: 2em;
+    background-color: rgb(14, 74, 14);
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    color: white;
+  }

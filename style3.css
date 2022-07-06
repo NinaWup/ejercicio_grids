@@ -1,0 +1,79 @@
+* {
+    font-family: lato;
+}
+
+
+.contenedor {
+    background-color:rgb(200, 184, 214);
+    border: dotted purple;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    place-content: center;
+    gap: 1rem;
+}
+
+
+.item1 {
+    background-color:rgb(84, 53, 112);
+    border: dotted rgb(49, 2, 49);
+    font-size: 2rem;
+    grid-column: 1/4;
+}
+
+
+
+.item2 {
+    background-color:rgb(105, 75, 132);
+    border: dotted rgb(49, 2, 49);
+    font-size: 4rem;
+    grid-row: 2/4;
+}
+
+.item3 {
+    background-color:rgb(168, 140, 193);
+    border: dotted rgb(49, 2, 49);
+    font-size: 4rem;
+    grid-area: 2/2/4/4;
+}
+
+
+.content2 {
+    background-color:rgb(200, 184, 214);
+    border: dotted purple;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    place-content: center;
+    gap: .5rem;
+    grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main";
+    place-content: center;
+    
+}
+
+
+.items1 {
+    background-color:rgb(84, 53, 112);
+    font-size: 2rem;
+    grid-area: header;
+    
+}
+
+
+
+.items2 {
+    background-color:rgb(105, 75, 132);
+    font-size: 2rem;
+    grid-area: side;
+
+}
+
+.items3 {
+    background-color:rgb(168, 140, 193);
+    font-size: 2rem;
+    grid-area: main;
+   
+}
